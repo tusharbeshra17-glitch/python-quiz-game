@@ -1,71 +1,62 @@
-# 🐍 Python Quiz Game
+# 🎯 Quiz Game in Python
 
-> A terminal-based Python Quiz Game with multiple difficulty levels, randomized questions, high score tracking, and a replay option.
-
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-![Status](https://img.shields.io/badge/Status-Completed-success)
-![License](https://img.shields.io/badge/License-MIT-green)
+A simple command-line quiz game built with **Python**. Test your General Knowledge and Computer Science skills by answering multiple-choice questions and earn prize money for every correct answer. The game ends when you select a wrong answer.
 
 ---
 
-## 📸 Project Preview
+## 📸 Screenshot
 
-> Add your project poster or screenshots here.
+> *Add your screenshot here after uploading it to the repository.*
 
-![Python Quiz Game](poster.png)
+![Quiz Game](screenshots/quiz-game.png)
 
 ---
 
 ## ✨ Features
 
-- 🎯 Multiple Difficulty Levels (Easy, Medium, Hard)
-- 🔀 Randomized Questions
-- 🏆 High Score Tracking
-- 🔁 Play Again Option
-- 📋 Main Menu Interface
-- 💻 Terminal-Based UI
-- ⚡ Fast and Lightweight
+* 📝 28 Multiple-Choice Questions
+* 🌍 General Knowledge & Computer Science
+* 💰 Prize Money System
+* 📊 Running Total of Winnings
+* ✅ Instant Answer Checking
+* 🎮 Simple Command-Line Interface
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Built With
 
-- Python 3
-- Random Module
-- Functions
-- Lists
-- Loops
-- Conditional Statements
-- Match-Case
+* 🐍 Python 3
 
 ---
 
 ## 📂 Project Structure
 
-```
-python-quiz-game/
-│── quiz_game.py
-│── README.md
-│── poster.png
+```text
+Quiz-Game-Python/
+│
+├── quiz_game.py
+├── README.md
+└── screenshots/
+    └── quiz-game.png
 ```
 
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. Clone the repository
-
-```bash
-git clone https://github.com/tusharbeshra17-glitch/python-quiz-game.git
-```
-
-2. Open the project folder
+### 1️⃣ Clone the Repository
 
 ```bash
-cd python-quiz-game
+git clone https://github.com/your-username/Quiz-Game-Python.git
 ```
 
-3. Run the program
+### 2️⃣ Open the Project Folder
+
+```bash
+cd Quiz-Game-Python
+```
+
+### 3️⃣ Run the Program
 
 ```bash
 python quiz_game.py
@@ -73,54 +64,40 @@ python quiz_game.py
 
 ---
 
-## 🎮 Difficulty Levels
+## 🎮 How to Play
 
-🟢 Easy – Beginner Python Questions
-
-🟡 Medium – Intermediate Python Questions
-
-🔴 Hard – Advanced Python Questions
+1. Start the program.
+2. Read the question carefully.
+3. Enter your answer (`1`, `2`, `3`, or `4`).
+4. Earn prize money for every correct answer.
+5. The game ends after the first wrong answer.
 
 ---
 
-## 📸 Game Screens
+## 📚 Concepts Used
 
-- Welcome Screen
-- Main Menu
-- Difficulty Selection
-- Quiz Questions
-- Final Score
-- High Score
+* 📋 Lists & Nested Lists
+* 🔁 Loops
+* ⚖️ Conditional Statements
+* ⌨️ User Input
+* 📦 Variables
+* 🧠 Basic Program Logic
 
 ---
 
 ## 🔮 Future Improvements
 
-- Timer for Questions
-- Leaderboard
-- Multiple Categories
-- Save High Score to File
-- GUI Version using Tkinter
-- Sound Effects
+* 🔀 Randomize Questions
+* 🎯 Difficulty Levels
+* 🛟 50:50 Lifeline
+* ⏱️ Question Timer
+* 💾 Save High Scores
+* 🎨 Colored Terminal Output
 
 ---
 
 ## 👨‍💻 Author
 
-**Tushar Beshra**
+**Tushar**
 
-GitHub:
-https://github.com/tusharbeshra17-glitch
-
-LinkedIn:
-https://www.linkedin.com/in/tushar-beshra-57743a3a1
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a **⭐ Star** on GitHub.
-
----
-
-> **Keep Learning • Keep Coding • Keep Growing 🚀**
+⭐ If you enjoyed this project, consider giving the repository a **Star**.
