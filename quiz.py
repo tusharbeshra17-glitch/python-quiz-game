@@ -1,3 +1,5 @@
+import random
+
 question =[ ["who is the precident of India","narendra modi","dropodi murmu","amit saha","nitish kumar",2],
 ["what is the capital of India","new delhi","odisha","kerala","manipur",1],
 ["what is the length of chickens neck of india","10 km","20 km","30 km","40 km",2],
@@ -26,6 +28,8 @@ question =[ ["who is the precident of India","narendra modi","dropodi murmu","am
 ["What is the full form of HTTP?", "Hyper Text Transfer Protocol", "High Text Transfer Protocol", "Hyper Transfer Text Protocol", "Hyper Tool Transfer Protocol", 1],
 ["Which symbol is used to start a comment in Python?", "//", "#", "/*", "--", 2],
 ["Which operator is used for exponentiation in Python?", "^", "**", "%", "//", 2],]
+
+random.shuffle(question)
 
 prize_money = [1000,2000,3000,4000,5000,6000,7000,8000,
                9000,10000,11000,12000,13000,14000,
