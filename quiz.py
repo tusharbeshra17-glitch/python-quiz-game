@@ -1,5 +1,19 @@
 import random
 
+def update_highscore(score):
+    try:
+        with open("highscore.txt", "r") as f :
+            high = int(f.read())
+    except:
+        high=0
+
+    if score>high:
+        with open("highscore.txt", "w") as f :
+            f.write(str(score))
+        print(" New High Score")
+    else:
+        print(f"High Score : {high}")
+ 
 question =[ ["who is the precident of India","narendra modi","dropodi murmu","amit saha","nitish kumar",2],
 ["what is the capital of India","new delhi","odisha","kerala","manipur",1],
 ["what is the length of chickens neck of india","10 km","20 km","30 km","40 km",2],
@@ -63,3 +77,5 @@ for questions in question :
     print(f"you won  {prize_money[i]}")
     print(f"you won total {sum}")
     i+=1
+
+update_highscore(sum)
